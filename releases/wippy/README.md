@@ -10,15 +10,17 @@ This repository contains pre-built binaries for the Wippy runtime, organized by 
 
 ## Current Build
 
-- **Build**: [wippy/feature/2025-09-26-13-20](./wippy/feature/2025-09-26-13-20/) (Commit: 3110d901)
+- **Build**: [wippy/feature/2025-09-26-16-14](./wippy/feature/2025-09-26-16-14/) (Commit: dc807194)
 - **Branch/Tag**: 125/merge
-- **Date**: 2025-09-26 13:20:04 UTC
+- **Date**: 2025-09-26 16:14:06 UTC
 
 ## Available Platforms
 
 - **Linux AMD64**: Optimized for x86_64 Linux systems
 - **Linux ARM64**: Optimized for ARM64 Linux systems (Raspberry Pi, etc.)
 - **Windows AMD64**: Optimized for x86_64 Windows systems
+- **macOS AMD64**: Optimized for Intel-based Mac systems
+- **macOS ARM64**: Optimized for Apple Silicon Mac systems (M1/M2/M3)
 
 ## Binary Optimization
 
@@ -58,6 +60,16 @@ chmod +x wippy-linux-amd64
 # Download latest build (Windows)
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/wippyai/wippy-releases/main/releases/wippy/latest/wippy-windows-amd64.exe" -OutFile "wippy-windows-amd64.exe"
 .\wippy-windows-amd64.exe --help
+```
+
+### macOS
+```bash
+# Download latest build (macOS)
+wget https://raw.githubusercontent.com/wippyai/wippy-releases/main/releases/wippy/latest/wippy-darwin-amd64  # Intel Mac
+# or
+wget https://raw.githubusercontent.com/wippyai/wippy-releases/main/releases/wippy/latest/wippy-darwin-arm64  # Apple Silicon Mac
+chmod +x wippy-darwin-amd64
+./wippy-darwin-amd64 --help
 ```
 
 ## Directory Structure
