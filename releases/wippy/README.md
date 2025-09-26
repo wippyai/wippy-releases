@@ -10,9 +10,9 @@ This repository contains pre-built binaries for the Wippy runtime, organized by 
 
 ## Current Build
 
-- **Build**: [wippy/feature/2025-09-24-10-11](./wippy/feature/2025-09-24-10-11/) (Commit: 35605353)
+- **Build**: [wippy/feature/2025-09-26-13-20](./wippy/feature/2025-09-26-13-20/) (Commit: 3110d901)
 - **Branch/Tag**: 125/merge
-- **Date**: 2025-09-24 10:11:39 UTC
+- **Date**: 2025-09-26 13:20:04 UTC
 
 ## Available Platforms
 
